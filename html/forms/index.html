@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!-- form -->
+    <form action="#" name="singup" target="_blank" onsubmit="alert('Enviado.')" method="POST">
+        <label for="name">Nome completo: </label>
+        <input type="text" name="name"><br>
+
+        <label for="age">Idade: </label>
+        <input type="number" name="age"><br>
+
+        <label for="password">Senha: </label>
+        <input type="text" name="password"><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- tag input-->
+    <form action="#">
+        <label for="text">Text: </label>
+        <input type="text" name="text"><br>
+
+        <label for="number">Number: </label>
+        <input type="number" name="number" min="0" step="5" max="100"><br>
+
+        <label for="range">Range: </label>
+        <input type="range" name="range" min="0" max="100"><br>
+
+        <label for="color">Color: </label>
+        <input type="color" name="color"><br>
+        
+        <label for="email">Email: </label>
+        <input type="email" name="email"><br>
+
+        <label for="url">Url: </label>
+        <input type="url" name="url"><br>
+
+        <label for="date">Date: </label>
+        <input type="date" name="date"><br>
+
+        <label for="checkbox">Checkbox: </label>
+        <input type="checkbox" name="checkbox"><input type="checkbox" name="checkbox"><br>
+    
+        <label for="radio">Radio: </label>
+        <input type="radio" name="radio"><input type="radio" name="radio"><br>
+    
+        <label for="file">File: </label>
+        <input type="file" name="file"><br>
+    </form>
+    
+    <form method="post">
+    <h3>Açaí 500ml</h3>
+    <p>Selecione os adicionais: </p>
+    <input type="checkbox" name="adicional[]" value="morango"> Morango <br>
+    <input type="checkbox" name="adicional[]" value="leite-condensado"> Leite Condensado <br>
+    <input type="checkbox" name="adicional[]" value="pacoca"> Paçoca <br>
+    <input type="checkbox" name="adicional[]" value="uva"> Uva <br>
+
+</form>
+</body>
+</html>
