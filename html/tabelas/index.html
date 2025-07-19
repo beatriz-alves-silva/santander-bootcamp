@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        table thead th {
+            background-color: grey;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: rgb(241, 241, 241);
+        }
+
+        table tr:hover td {
+            background-color: rgb(214, 214, 214);
+        }
+    </style>
+</head>
+<body>
+    <table summary="Tabela com nome e idade" width="200" cellspacing="0">
+        <thead>
+            <tr>
+                <th title="Nome">Nome</th><th title="Idade">Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr id="1">
+                <td>Ana</td><td>16</td>
+            </tr>
+            <tr id="2">
+                <td>Pedro</td><td>19</td>
+            </tr>
+            <tr id="3">
+                <td>Julia</td><td>25</td>
+            </tr>
+            <tr id="4">
+                <td>Maria</td><td>18</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
