@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Bootcamp Santander 2025 Front-End</h1>
+        <p><strong>Desafio</strong>: criar uma página utilizando as tags estudadas até o momento.</p>
+        <nav>
+            <ul>
+                <li><a href="#estrutura">Estrutura</a></li>
+                <li><a href="#formulario">Formulário</a></li>
+                <li><a href="#tabela">Tabela</a></li>
+                <li><a href="#midia">Mídia</a></li>
+                <li><a href="#semantica">Semântica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="estrutura"> 
+            <header>
+                <h2>Estrutura <i><a href="#inicio">(início)</a></i></h2> 
+            </header>
+            <section>
+                <p>Durante o primeiro momento do curso foi abordada a <strong><i>estrutura em HTML</i></strong>, assim como algumas formatações.<br>Na tabela abaixo é possível observar um resumo das tags de formatação trabalhadas.</p>
+                <table cellpadding="4" border="1" summary="Tabela contendo as tags utilizadas e suas respectivas funções">
+                    <tr>
+                        <th>Tag</th> <th>Função</th>
+                    </tr>
+                    <tr>
+        
+                        <td>i</td> <td>itálico</td>
+                    </tr>
+                    <tr>
+                        <td>b / strong</td> <td>negrito</td>
+                    </tr>
+                    <tr>
+                        <td>u</td> <td>sublinhado</td>
+                    </tr>
+                    <tr>
+                        <td>mark</td> <td>marca texto</td>
+                    </tr>
+                </table>
+                <p>Também foi apresentada a tag <i>font</i> que pode alterar <font color="pink">cor</font> e <font face="arial">fonte</font> de textos, porém é um recurso inutilizado atualmente.<br>Por conta disso, este projeto não conterá outras formatações que devem ser realizadas via CSS.</p>
+            </section>
+        </article>
+
+        <article id="formulario">
+            <header>
+                <h2>Formulário <i><a href="#inicio">(início)</a></i></h2>
+            </header>
+            <section>
+                <p>No módulo sobre <strong><i>formulário</i></strong> aprendemos sobre os principais <i>inputs</i> utilizados.</p>
+                <ul>
+                    <li><strong>Text: </strong>campo de texto com uma linha</li>
+                    <li><strong>Number: </strong>campo que aceita apenas números</li>
+                    <li><strong>Color: </strong>seletor de cores</li>
+                    <li><strong>Email: </strong>campo validado com um endereço de email</li>
+                    <li><strong>Url: </strong>campo que aceita apenas links <i>(ex: https://www.dio.me/)</i></li>
+                    <li><strong>Date: </strong>apresenta uma interface para seleção de data (o usuário pode digitar a data, se preferir)</li>
+                    <li><strong>Checkbox: </strong>caixa de marcação (o usuário pode selecionar várias)</li>
+                    <li><strong>Radio: </strong>caixa de marcação (não pode selecionar mais de um com o mesmo <i>name</i>)</li>
+                    <li><strong>File: </strong>permite que o usuário selecione um arquivo</li>
+                </ul>
+                <p>Por fim, utilizamos os métodos <i>GET</i> e <i>POST</i> para compreender suas características:</p>
+                <ul>
+                    <li>GET: os dados do formulário são enviados na URL (fica visível para o usuário)</li>
+                    <li>POST: os dados são enviados na requisição HTTP (não aparece na URL como o GET)</li>
+                </ul>
+            </section>
+        </article>
+
+        <article id="tabela">
+            <header>
+                <h2>Tabela <i><a href="#inicio">(início)</a></i></h2>
+            </header>
+            <section>
+                <p>Para criar uma <i><strong>tabela</strong></i> em HTML é necessário iniciar utilizando a tag <i>table</i>. <br>Cada linha pode ser inserida utilizando <i>tr (table row)</i> e as colunas são inseridas com <i>td (table data)</i>. Já para o cabeçalho da tabela utilizamos o <i>th</i>.</p>
+
+                <!-- nesse trecho quero mostrar o HTML puro, não quero que o navegador interprete
+                então utilizei ENTIDADES HTML, que substituem os caracteres reservados em HTML, nesse caso o "&lt" (less than) "<" e o "$gt" (greater than) ">"
+                -->
+                <pre><code>
+                &lt;table&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Linha 1, Coluna 1&lt;/td&gt; &lt;td&gt;Linha 1, Coluna 2&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Linha 2, Coluna 1&lt;/td&gt; &lt;td&gt;Linha 2, Coluna 2&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                </code></pre>
+                <p>O atributo <i>summary</i> é utilizado para descrever a tabela (não aparece para o usuário) e o <i>caption</i> é o título da tabela (aparece para o usuário).<br>Também podemos utilizar o <i>cellspacing</i> para definir o espaço entre as célular e o <i>cellpadding</i> para o espaço entre o conteúdo e a borda da célula.</p>
+            </section>
+        </article>
+        
+        <article id="midia">
+            <header>
+                <h2>Mídia <i><a href="#inicio">(início)</a></i></h2>
+            </header>
+            <section>
+                <p>As <i><strong>mídias</strong></i> são elementos que podem ser inseridos nas páginas a partir das tags <i>img</i>, <i>audio</i> e <i>video</i>.<br>Nelas é possível ajustar o tamanho da mídia (<i>width e height</i>), incluir controles de mídia com o <i>controls</i> e adicionar uma descrição para leitores de tela com o <i>alt</i>.</p>
+                <img src="gato-web.gif" title="gato mexendo no computador" alt="gif de um gato mexendo em um computador" width="200">
+                <p>O <i>title</i> define um balão que aparece ao passar o mouse por cima da imagem e a tag <i>track</i> é utilizada para inserir legendas.</p>
+            </section>
+        </article>
+
+        <article id="semantica">
+            <header>
+                <h2>Semântica <i><a href="#inicio">(início)</a></i></h2>
+            </header>
+            <section>
+                <p>A ideia principal deste módulo é compreendermos a importância de criar sites que todas as pessoas possam usar, inclusive aquelas com deficiências visuais, motoras, auditivas ou cognitivas.<br> Abaixo temos um resumo dos tópicos abordados.</p>
+                <ul>
+                    <li><strong>web scraping</strong>: técnica de coletar dados de uma página da web</li>
+                    <li><strong>header</strong>: cabeçalho de uma página ou seção (logo, título, menu...)</li>
+                    <li><strong>main</strong>: não pode ser filho de outros elementos e não pode haver mais de um elemento main no mesmo documento</li>
+                    <li><strong>footer</strong>: rodapé da página ou seção (contatos, links úteis...)</li>
+                    <li><strong>section</strong>: seção genérica do conteúdo (tópicos relacionados)</li>
+                    <li><strong>aside</strong>: conteúdo relacionado ao principal mas não essencial (barras laterais, links extras...</li>
+                    <li><strong>nav</strong>: links de navegação da página (menu, sumário...)</li>
+                    <li><strong>article</strong>: conteúdo independe e reutilizável (notícia, post, comentário)</li>
+                    <li><strong>blockquote</strong>: bloco de citação longa</li>
+                    <li><strong>q</strong>: citação curta dentro do texto</li>
+                </ul>
+                <p></p>
+            </section>
+        </article>
+    </main> <hr>
+
+    <footer>
+        <p>Para a realização deste desafio foram utilizados os conceitos trabalhados até o momento no Bootcamp Santander DIO, com o auxílio dos materiais de <a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a> e <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">mdn web docs</a>.</p>
+        <h3>Encontre o <a href="https://www.dio.me/bootcamp" target="_blank">Bootcamp DIO</a> perfeito para você!</h3>
+        <iframe src="https://www.dio.me/bootcamp" title="página de bootcamps DIO" frameborder="0" width="500" height="200"></iframe>
+        <hr>
+        <p><a href="https://www.linkedin.com/in/beatriz-alves-s/" target="_blank">Beatriz Alves</a> | 2025</p>
+    </footer>
+</body>
+</html>
