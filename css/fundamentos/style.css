@@ -1,0 +1,27 @@
+.css-externo {
+    color: lightgreen;
+}
+h1 {
+    width: 260px;
+    padding: 10px;
+    background-color: lightsalmon;
+}
+h2 {
+    width: 300px;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+div {
+    width: 100px;
+    height: 100px;
+}
+#div-1 {
+    background-color: limegreen;
+    margin: 10px;
+    padding: 10px;
+}
+#div-2 {
+    background-color: tomato;
+    margin: 20px;
+    padding: 5px;
+}
