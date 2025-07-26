@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos CSS</title>
+    <!-- uso do css interno -->
+    <style>
+        .css-interno {
+            color: lightblue;
+        }
+    </style>
+    <!-- uso do css externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Introdução ao CSS</h1>
+    </header>
+
+    <main>
+        <article id="declaracao-css">
+            <h2>Tipos de declaração do CSS</h2>
+            <ul>
+                <!-- uso do css inline -->
+                <li style="color: lightcoral;"><strong>Inline</strong>: é utilizado com o atributo style dentro das tags HTML</li>
+                <li class="css-interno"><strong>Interno</strong>: o código CSS é adicionado dentro da tag head, utilizando a tag style e colocando as regras dentro dessa área</li>
+                <li class="css-externo"><strong>Externo</strong>: o arquivo .css contém todas as regras CSS e é referenciado no HTML com a tag link</li>
+            </ul>
+        </article>
+
+        <article id="margin-padding">
+            <h2>Margin e Padding</h2>
+            <div id="div-1">DIV 1</div>
+            <div id="div-2">DIV 2</div>
+        </article>
+    </main>
+
+    <footer>
+        <p><a href="https://www.linkedin.com/in/beatriz-alves-s/" target="_blank">Beatriz Alves</a> | 2025</p>
+    </footer>
+</body>
+</html>
