@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+#pre-def {
+    color: purple;
+}
+#rgb {
+    color: rgb(240, 0, 0);
+}
+#rgba {
+    color: rgb(60% , 10%, 30%, 0.5);
+}
+#hexa {
+    color: #0187a2
+}
+#hsl {
+    color: hsl(120, 100%, 40%);
+}
+#exemplo-img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid tomato;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.fill {
+    object-fit: fill;
+}
+.contain {
+    object-fit: contain;
+}
+#bloco-exemplo {
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    background-image: url(gato.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: bottom 25px right 20px;
+}
+#div-clip {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+#text {
+    --s: 20px; /* control the size*/
+    --c1: #c02942;
+    --c2: #53777a;
+    --c3: #ecd078;
+    --c4: #d95b43;
+    
+    background:
+        radial-gradient(var(--c1) 24%,#0000 25%),
+        radial-gradient(var(--c2) 30%,#0000 32%) calc(var(--s)/2) calc(var(--s)/2),
+        repeating-conic-gradient(from 30deg,var(--c3) 0 30deg,var(--c4) 0 25%);
+    background-size: var(--s) var(--s);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-size: 100px;
+}
+#div-bordas-1 {
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: tomato lightgreen yellow lightblue;
+    border-radius: 10px;
+}
+#div-bordas-2 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-image-source: linear-gradient(tomato, lightgreen);
+    border-image-slice: 10;
+}
+#subtitulo-font {
+    font-family: "Bitcount", sans-serif;
+    font-size: 40px;
+}
+#texto-font {
+    font-family: "Roboto Condensed", sans-serif;
+}
+#text-transform {
+    text-transform: uppercase;
+}
+#div-sombras {
+    width: 200px;
+    height: 200px;
+    border: 5px solid tomato;
+    box-shadow: 10px 10px 5px lightgreen;
+}
+#texto-sombra {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(174, 76, 59);
+}
