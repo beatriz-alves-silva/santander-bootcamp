@@ -1,0 +1,78 @@
+#texto-multicol {
+    column-count: 3;
+    column-rule: 1px solid tomato;
+    column-gap: 100px;
+}
+.ex-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.exemplo {
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+    margin: 5px;
+}
+#exemplo-grid {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px repeat(3, 200px);
+    grid-template-areas:
+        "header header header header"
+        "navbar main-content main-content main-content"
+        "navbar content-1 content-2 content-3"
+        "navbar footer footer footer"
+    ;
+}
+
+#h-grid {
+    padding: 10px;
+    background: lightgreen;
+    grid-area: header;
+}
+nav {
+    padding: 10px;
+    background: tomato;
+    grid-area: navbar;
+}
+#main-section {
+    padding: 10px;
+    background-color: lightblue;
+    grid-area: main-content;
+}
+#content-1 {
+    padding: 10px;
+    background: lightsalmon;
+    grid-area: content-1;
+}
+#content-2 {
+    padding: 10px;
+    background: rgb(189, 192, 101);
+    grid-area: content-2;
+}
+#content-3 {
+    padding: 10px;
+    background: rgb(204, 206, 74);
+    grid-area: content-3;
+}
+#footer-content {
+    padding: 10px;
+    background: rgb(193, 106, 220);
+    grid-area: footer;
+}
+li {
+    list-style: none;
+}
+/* telas modernas */
+@media (min-width: 768px) {
+}
+/* tablets horizontal, notebooks*/
+@media (min-width: 1024px) {
+}
+/* mobile horizontal, tablets vertical*/
+@media (min-width: 768px) {
+}
