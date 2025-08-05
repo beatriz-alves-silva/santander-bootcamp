@@ -1,0 +1,30 @@
+.exemplo-block {
+    background: lightblue;
+    display: block;
+}
+.exemplo-inline {
+    background: lightcoral;
+    display: inline;
+}
+.exemplo-inline-block {
+    background-color: lightgreen;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+}
+.exemplo-none {
+    background-color: lightseagreen;
+    width: 300px;
+    height: 200px;
+    display: none;
+}
+.exemplo {
+    background-color: tomato;
+}
+#item-2 {
+    display: none;
+}
+#item-5 {
+    visibility: hidden;
+}
