@@ -1,0 +1,49 @@
+.exemplo-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: lightgreen;
+    padding: 10px;
+}
+.exemplo-column {
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    padding: 10px;
+}
+.item {
+    background: tomato;
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+.exemplo-flex-start {
+    background: lightgrey;
+    display: flex;
+    justify-content: flex-start;
+}
+.exemplo-flex-end {
+    background: lightgrey;
+    display: flex;
+    justify-content: flex-end;
+}
+.exemplo-center {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.exemplo-space-between {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.exemplo-space-around {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-around;
+}
+.exemplo-space-evenly {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
