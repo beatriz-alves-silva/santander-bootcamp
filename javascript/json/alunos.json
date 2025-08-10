@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "João",
+        "idade": 21,
+        "disciplinas": ["Matematica", "Inglês", "História"]
+    },
+    {
+        "nome": "Ana",
+        "idade": 19,
+        "disciplinas": ["Matematica", "Inglês", "História"]
+    },
+    {
+        "nome": "Pedro",
+        "idade": 18,
+        "disciplinas": ["Matematica", "Inglês", "História"]
+    },
+    {
+        "nome": "Maria",
+        "idade": 20,
+        "disciplinas": ["Matematica", "Inglês", "História"]
+    },
+    {
+        "nome": "Gabriel",
+        "idade": 22,
+        "disciplinas": ["Matematica", "Inglês", "História"]
+    }
+]
