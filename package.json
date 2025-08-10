@@ -1,0 +1,21 @@
+{
+  "name": "santander-bootcamp",
+  "version": "1.0.0",
+  "description": "Bootcamp Santander 2025 Front-End com HTML, CSS e JAVASCRIPT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatriz-alves-silva/santander-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "Beatriz Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatriz-alves-silva/santander-bootcamp/issues"
+  },
+  "homepage": "https://github.com/beatriz-alves-silva/santander-bootcamp#readme"
+}
