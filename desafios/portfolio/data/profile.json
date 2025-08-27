@@ -37,7 +37,11 @@
       }
     ],
     "softSkills": [
-      "Empatia"
+      "Comprometida",
+      "Dedicada",
+      "Persistente",
+      "Colaborativa",
+      "Boa Comunicação"
     ]
   },
   "languages": [
@@ -46,16 +50,21 @@
   ],
   "portfolio": [
     {
-      "name": "",
-      "url": "",
+      "name": "Santander Bootcamp",
+      "url": "https://github.com/beatriz-alves-silva/santander-bootcamp",
+      "github": true
+    },
+        {
+      "name": "Jogo Colheita Financeira",
+      "url": "https://github.com/beatriz-alves-silva/jogo-colheita-financeira",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "",
-      "period": "",
-      "description": ""
+      "name": "Bolsista de Projeto de Extensão | Desenvolvedora CSS HTML JavaScript",
+      "period": "03/2024 - 03/2025",
+      "description": "Participei do projeto de extensão com foco em educação financeira para crianças e pessoas com deficiência intelectual, atuando como Desenvolvedora. Fui responsável pela criação de um jogo educacional para plataforma web, utilizando HTML, CSS, JavaScript e aplicando uma técnica de IA para personalizar as recompensas dos usuários, com foco em acessibilidade e usabilidade."
     }
   ]
 }
